@@ -1,0 +1,45 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /api
+
+logging:
+  level:
+    org.mongodb.driver.cluster: ERROR
+  config: classpath:logback-spring.xml
+
+
+#mongodb的配置
+spring:
+  data:
+    mongodb:
+      #uri: mongodb://eigaland:123@localhost:32771/Eigaland-Ticketing?main?authSource=admin&authMechanism=SCRAM-SHA-1
+      uri: mongodb://localhost:27017/TestDB
+      #host: localhost
+      #database: Eigaland-Ticketing
+      #port: 32771
+      #username:
+      #password:
+      #authentication-database: admin
+
+training:
+  fizz: Fizz
+  buzz: Buzz
+  whizz: Whizz
+
+  path: /Users/weiheng.lei/
+
+
+#spring.mvc.static-path-pattern: /static/**
+#jasypt:
+#  encryptor:
+#    password: a
+#    algorithm: b
+
+
+
+
+
+
+
+
