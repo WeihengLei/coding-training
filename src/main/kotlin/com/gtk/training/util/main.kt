@@ -237,9 +237,13 @@ fun main(args: Array<String>) {
     cal.time = Date(dateFormat.parse("2020-08-09 22:01:00").toInstant().toEpochMilli())
 
     println("7======="+cal.get(Calendar.DATE))
+    Calendar.
 
+    val monthDays = (1..31).map { it.toString() }
 
+    val monthDays2 = (1..4).map { it.toString() }
 
+    println("8======="+monthDays)
 
 
 }
